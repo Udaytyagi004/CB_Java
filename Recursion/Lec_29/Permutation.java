@@ -16,3 +16,17 @@ public class Permutation {
         }
     }
 }
+
+
+// select two box from four 
+
+
+//  public static void fun(String str ,  String path , List<String> list) {
+//         if(path.length() == 2) {
+//             list.add(path);
+//             return;
+//         }
+//         for(int i = 0; i < str.length(); i++) {
+//             fun(str.substring(i+1) , path + str.charAt(i) , list);
+//         }
+//     }
