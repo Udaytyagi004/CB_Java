@@ -1,6 +1,7 @@
 package Recursion.Lec_27;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     
@@ -37,4 +38,20 @@ public class Main {
       SubSeq(str, i+1, ans, path);
       SubSeq(str, i+1, ans, path+ch);
    }
+
+
+   // SubSequence => Returning ans in a List
+   public static List<String> subsequence(String str , String ans) {
+        if(str.isEmpty()) {
+            List<String> list = new ArrayList<>();
+            list.add(ans);
+            return list;
+        }
+        
+        char ch = str.charAt(0);
+        List<String> l1 = subsequence(str.substring(1) , ans + ch);
+        List<String> l2 = subsequence(str.substring(1) , ans);
+        l1.addAll(l2);
+        return l1;
+    }
 }
