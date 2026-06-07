@@ -3,7 +3,7 @@ package Backtracking.Lec_34;
 import java.util.ArrayList;
 import java.util.List;
 
-// Rat in a maze GFG    
+// Rat in a maze GFG     
 public class RatChasesItsCheese {
     public static void main(String[] args) {
         
