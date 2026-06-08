@@ -18,7 +18,7 @@ public class Coin_Permuatation {
 
         for(int i = 0; i < coins.length; i++) {
             if(target >= coins[i]) {
-                coin_per(coins, target - coins[i] , path  coins[i]);
+                coin_per(coins, target - coins[i] , path + coins[i]);
             }
         }
     }

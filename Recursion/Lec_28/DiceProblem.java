@@ -2,7 +2,7 @@
 // Given a dice with faces 1,2,3, ... , you can roll the dice as many time as you want , there is a target n , print all the possible paths to reach the target(combinations of the dice faces that sums equal to target)
 
 
-public package Recursion.Lec_28;
+package Recursion.Lec_28;
 
 class DiceProblem {
 
